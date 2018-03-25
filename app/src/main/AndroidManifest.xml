@@ -9,17 +9,24 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".ListViewPart.ListViewActivity" />
-        <activity android:name=".FragmentPart.FragmentActivity" />
-        <activity android:name=".FragmentPart.TestQualifiersActivity"></activity>
-        <activity android:name=".SimpleNewsApp.NewsContentActivity"></activity>
-        <activity android:name=".SimpleNewsApp.NewsMainActivity">
+        <activity android:name=".ActivityPart.Activity01">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActivityPart.Activity02">
+            <intent-filter>
+                <action android:name="com.example.shuoquan1205.myapp05.MY_ACTION"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <category android:name="com.example.shuoquan1205.myapp05.MY_CATEGORY"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListViewPart.ListViewActivity" />
+        <activity android:name=".FragmentPart.FragmentActivity" />
+        <activity android:name=".FragmentPart.TestQualifiersActivity" />
+        <activity android:name=".SimpleNewsApp.NewsContentActivity" />
+        <activity android:name=".SimpleNewsApp.NewsMainActivity" />
     </application>
 
 </manifest>

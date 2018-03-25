@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shuoquan1205.myapp05.ActivityPart.Activity01"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/startActivityBtn01"
+        android:text="start Activity A->B"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/startActivityBtn02"
+        android:text="start Activity action"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/startActivityBtn03"
+        android:text="start Activity action+category"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/startActivityBtn04"
+        android:text="start Activity extra"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/startActivityBtn05"
+        android:text="start Activity For Result"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/finishActivityBtn"
+        android:text="finish Activity 02"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
